@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingSystem.Business.Kern
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingSystem.Business.Interface", "ParkingSystem.Business.Interface\ParkingSystem.Business.Interface.csproj", "{6C2BAA10-5277-47D0-9B53-FF01BC4941A8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{874B3895-3C47-4EA9-88AE-116419AE4C7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingSystem,Application.Web.API", "ParkingSystem,Application.Web.API\ParkingSystem,Application.Web.API.csproj", "{A24C14D4-4434-417C-A5D3-0B9E6BE17F13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,14 +35,20 @@ Global
 		{6C2BAA10-5277-47D0-9B53-FF01BC4941A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C2BAA10-5277-47D0-9B53-FF01BC4941A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C2BAA10-5277-47D0-9B53-FF01BC4941A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24C14D4-4434-417C-A5D3-0B9E6BE17F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24C14D4-4434-417C-A5D3-0B9E6BE17F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24C14D4-4434-417C-A5D3-0B9E6BE17F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24C14D4-4434-417C-A5D3-0B9E6BE17F13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{82885692-10CA-4F0B-ABCA-B327AD8F6E84} = {874B3895-3C47-4EA9-88AE-116419AE4C7E}
 		{0E53C1C6-7870-4267-BA96-AFAEB7BCEB28} = {A63B58BF-4A58-4099-AF67-855BA9180B50}
 		{4950B749-E7D0-4DE7-BDD6-889128B432B8} = {0E53C1C6-7870-4267-BA96-AFAEB7BCEB28}
 		{6C2BAA10-5277-47D0-9B53-FF01BC4941A8} = {0E53C1C6-7870-4267-BA96-AFAEB7BCEB28}
+		{A24C14D4-4434-417C-A5D3-0B9E6BE17F13} = {874B3895-3C47-4EA9-88AE-116419AE4C7E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9516AE86-108E-4DDD-BCC0-ECBBE70C36CB}
